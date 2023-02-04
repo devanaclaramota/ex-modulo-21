@@ -1,0 +1,28 @@
+{
+  "name": "ex-modulo21",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel src/index.html src/scripts/main.js src/styles/main.scss",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devanaclaramota/ex-modulo-21.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devanaclaramota/ex-modulo-21/issues"
+  },
+  "homepage": "https://github.com/devanaclaramota/ex-modulo-21#readme",
+  "dependencies": {
+    "parcel": "^2.8.3"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "sharp": "^0.31.3"
+  }
+}
